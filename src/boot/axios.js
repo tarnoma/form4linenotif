@@ -3,7 +3,7 @@
 import { boot } from 'quasar/wrappers'
 import axios from 'axios'
 
-const api = axios.create({ baseURL: 'https://vercel.com/tarnoma/api4linenotif',
+const api = axios.create({ baseURL: 'https://api4linenotif.vercel.app',
 headers:{
     "Content-type": "application/json"
 } })
